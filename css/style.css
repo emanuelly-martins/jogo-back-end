@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Fredoka:wght@400;600;700&display=swap');
+
+/* CONFIGURAÇÕES GERAIS */
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #090d16;
+    color: #f8fafc;
+    user-select: none;
+    overflow: hidden;
+    touch-action: manipulation;
+}
+
+/* FONTE PIXEL */
+
+.font-pixel {
+    font-family: 'Press Start 2P', monospace;
+}
+
+/* CARTÕES LEGO */
+
+.lego-card {
+    background: rgba(15, 23, 42, 0.94);
+    border: 3px solid #00f3ff;
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.3),
+    inset 0 0 10px rgba(0, 243, 255, 0.15);
+}
+
+.lego-card-pink {
+    background: rgba(15, 23, 42, 0.94);
+    border: 3px solid #ff007f;
+    box-shadow: 0 0 15px rgba(255, 0, 127, 0.3),
+    inset 0 0 10px rgba(255, 0, 127, 0.15);
+}
+
+.lego-card-yellow {
+    background: rgba(15, 23, 42, 0.94);
+    border: 3px solid #ffe600;
+    box-shadow: 0 0 15px rgba(255, 230, 0, 0.3),
+    inset 0 0 10px rgba(255, 230, 0, 0.15);
+}
+
+/* EFEITOS DOS TEXTOS */
+
+.text-glow-cyan {
+    text-shadow: 0 0 8px #00f3ff;
+}
+
+.text-glow-yellow {
+    text-shadow: 0 0 8px #ffe600;
+}
+
+.text-glow-pink {
+    text-shadow: 0 0 8px #ff007f;
+}
+
+/* BARRA DE ROLAGEM */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffe600;
+    border-radius: 4px;
+}
